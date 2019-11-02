@@ -191,7 +191,7 @@ var loadgeneral = setInterval(function() {
 // check if it's empty && visible
 if ( ( $('#general').hasClass("swiper-slide-visible") ) && ( isEmpty($('.general')) ) ) {
 		console.log('general is empty && is visible');
-$(".general").append('<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fredcincodiario%2F&tabs=timeline&width=312&height=2000&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=244071169860258" width="312" height="2000" style="border:none;overflow:scroll" scrolling="yes" frameborder="10" allowTransparency="true" allow="encrypted-media"></iframe>');
+$(".general").append('<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDiarioRedCinco%2F&tabs=timeline&width=312&height=2000&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=244071169860258" width="312" height="2000" style="border:none;overflow:scroll" scrolling="yes" frameborder="10" allowTransparency="true" allow="encrypted-media"></iframe>');
 // clear the setInterval
 clearInterval(loadgeneral);
 	}
