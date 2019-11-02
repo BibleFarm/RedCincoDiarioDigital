@@ -969,6 +969,7 @@ body {
   min-width: 310px;
   height: 2000px;
   background: !important;
+  text-align: center;
 }
 .swiper-button-next {
   position: fixed;
@@ -1389,6 +1390,9 @@ a.link_to_youtube_channel:focus {
 .bf_intro_container {
   overflow-y: hidden;
       height: calc(100vh - 150px);
+      text-align: center;
+    width: 312px;
+    display: inline-block;
     }
     .padding_left_10px {
       color: #ffffff;
