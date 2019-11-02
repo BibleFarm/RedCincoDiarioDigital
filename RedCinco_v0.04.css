@@ -801,7 +801,7 @@ body {
   display: flex;
   width: 100%;
   max-width:100%;
-  background:none;
+  background:#FF5E33;
   height: 44px;
 }
 .flex-child {
