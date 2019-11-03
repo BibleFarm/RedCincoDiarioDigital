@@ -132,10 +132,10 @@ $(".flex-parent").children(".flex-child").each(function() {
   $(".move_to_bf-general").click(swiper_jovi, function() {
     swiper_jovi.slideTo(1);
   });
-  $(".move_to_bf-policiales").click(swiper_jovi, function() {
+  $(".move_to_bf-nacionales").click(swiper_jovi, function() {
     swiper_jovi.slideTo(2);
   });
-  $(".move_to_bf-nacionales").click(swiper_jovi, function() {
+  $(".move_to_bf-mundo").click(swiper_jovi, function() {
     swiper_jovi.slideTo(3);
   });
   $(".move_to_bf-politica").click(swiper_jovi, function() {
@@ -144,38 +144,41 @@ $(".flex-parent").children(".flex-child").each(function() {
   $(".move_to_bf-misiones").click(swiper_jovi, function() {
     swiper_jovi.slideTo(5);
   });
-  $(".move_to_bf-deportes").click(swiper_jovi, function() {
+  $(".move_to_bf-policiales").click(swiper_jovi, function() {
     swiper_jovi.slideTo(6);
   });
-  $(".move_to_bf-cultura").click(swiper_jovi, function() {
+  $(".move_to_bf-deportes").click(swiper_jovi, function() {
     swiper_jovi.slideTo(7);
   });
-  $(".move_to_bf-espectaculos").click(swiper_jovi, function() {
+  $(".move_to_bf-cultura").click(swiper_jovi, function() {
     swiper_jovi.slideTo(8);
   });
-  $(".move_to_bf-educacion").click(swiper_jovi, function() {
+  $(".move_to_bf-espectaculos").click(swiper_jovi, function() {
     swiper_jovi.slideTo(9);
   });
-  $(".move_to_bf-salud").click(swiper_jovi, function() {
+  $(".move_to_bf-educacion").click(swiper_jovi, function() {
     swiper_jovi.slideTo(10);
   });
-  $(".move_to_bf-tecnologia").click(swiper_jovi, function() {
+  $(".move_to_bf-salud").click(swiper_jovi, function() {
     swiper_jovi.slideTo(11);
   });
-  $(".move_to_bf-mascotas").click(swiper_jovi, function() {
+  $(".move_to_bf-tecnologia").click(swiper_jovi, function() {
     swiper_jovi.slideTo(12);
   });
-  $(".move_to_bf-clasificados").click(swiper_jovi, function() {
+  $(".move_to_bf-mascotas").click(swiper_jovi, function() {
     swiper_jovi.slideTo(13);
   });
-  $(".move_to_bf-profesionales").click(swiper_jovi, function() {
+  $(".move_to_bf-clasificados").click(swiper_jovi, function() {
     swiper_jovi.slideTo(14);
   });
-  $(".move_to_bf-mediakit").click(swiper_jovi, function() {
+  $(".move_to_bf-profesionales").click(swiper_jovi, function() {
     swiper_jovi.slideTo(15);
   });
-  $(".move_to_bf-info").click(swiper_jovi, function() {
+  $(".move_to_bf-mediakit").click(swiper_jovi, function() {
     swiper_jovi.slideTo(16);
+  });
+  $(".move_to_bf-info").click(swiper_jovi, function() {
+    swiper_jovi.slideTo(17);
   });
 ///////////////////////////////////
 // BEGIN load iframes as needed
