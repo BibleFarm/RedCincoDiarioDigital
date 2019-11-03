@@ -472,10 +472,13 @@ clearInterval(loadradio);
 
 ///////////////////
 /*
-$('.bf_intro_container').perfectScrollbar({
-//  wheelPropagation: true,
-//  scrollXMarginOffset: 2
+if ($(window).width() > 769) {
+$('.bf_farm_container').css("overflow", "hidden");
+$('.bf_farm_container').perfectScrollbar({
+  wheelPropagation: true,
+  scrollXMarginOffset: 2
 });
+}
 */
 ///////////////////
 
