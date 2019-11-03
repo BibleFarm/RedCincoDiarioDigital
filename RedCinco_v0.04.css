@@ -2510,6 +2510,9 @@ max-width: 88px;
   line-height: 44px;
   max-width: 44px;
 }
+.rc_youtube {
+  display: none;
+}
 .rc_logo_top {
   max-width: 216px;
   max-height: 44px;
@@ -2525,3 +2528,11 @@ img {
   background: #FF5E33 !important;
       color: #ffffff !important;
 }
+.info_div_outer {
+  width: 100%;
+  text-align: center;
+  }
+.info_div_inner {
+  display: inline-block;
+    width: 312px;
+    }

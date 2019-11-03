@@ -197,21 +197,6 @@ clearInterval(loadgeneral);
 	}
 }, 1000);
 ///////////////////////////////////
-////// policiales
-///////////////////////////////////
-var loadpoliciales = setInterval(function() {
-  function isEmpty( el ){
-      return !$.trim(el.html())
-  }
-// check if it's empty && visible
-if ( ( $('#policiales').hasClass("swiper-slide-visible") ) && ( isEmpty($('.policiales')) ) ) {
-		console.log('policiales is empty && is visible');
-$(".policiales").append('<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRed-Cinco-Policiales-107124010707450%2F&tabs=timeline&width=312&height=2000&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=244071169860258" width="312" height="2000" style="border:none;overflow:scroll" scrolling="yes" frameborder="10" allowTransparency="true" allow="encrypted-media"></iframe>');
-// clear the setInterval
-clearInterval(loadpoliciales);
-	}
-}, 1000);
-///////////////////////////////////
 ////// nacionales
 ///////////////////////////////////
 var loadnacionales = setInterval(function() {
@@ -224,6 +209,21 @@ if ( ( $('#nacionales').hasClass("swiper-slide-visible") ) && ( isEmpty($('.naci
 $(".nacionales").append('<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRed-Cinco-Nacionales-111172713648141%2F&tabs=timeline&width=312&height=2000&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=244071169860258" width="312" height="2000" style="border:none;overflow:scroll" scrolling="yes" frameborder="10" allowTransparency="true" allow="encrypted-media"></iframe>');
 // clear the setInterval
 clearInterval(loadnacionales);
+	}
+}, 1000);
+///////////////////////////////////
+////// mundo
+///////////////////////////////////
+var loadmundo = setInterval(function() {
+  function isEmpty( el ){
+      return !$.trim(el.html())
+  }
+// check if it's empty && visible
+if ( ( $('#mundo').hasClass("swiper-slide-visible") ) && ( isEmpty($('.mundo')) ) ) {
+		console.log('mundo is empty && is visible');
+$(".mundo").append('<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRedCincoMundo%2F&tabs=timeline&width=312&height=2000&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=244071169860258" width="312" height="2000" style="border:none;overflow:scroll" scrolling="yes" frameborder="10" allowTransparency="true" allow="encrypted-media"></iframe>');
+// clear the setInterval
+clearInterval(loadmundo);
 	}
 }, 1000);
 ///////////////////////////////////
@@ -254,6 +254,21 @@ if ( ( $('#misiones').hasClass("swiper-slide-visible") ) && ( isEmpty($('.mision
 $(".misiones").append('<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRed-Cinco-Misiones-108787037220372%2F&tabs=timeline&width=312&height=2000&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=244071169860258" width="312" height="2000" style="border:none;overflow:scroll" scrolling="yes" frameborder="10" allowTransparency="true" allow="encrypted-media"></iframe>');
 // clear the setInterval
 clearInterval(loadmisiones);
+	}
+}, 1000);
+///////////////////////////////////
+////// policiales
+///////////////////////////////////
+var loadpoliciales = setInterval(function() {
+  function isEmpty( el ){
+      return !$.trim(el.html())
+  }
+// check if it's empty && visible
+if ( ( $('#policiales').hasClass("swiper-slide-visible") ) && ( isEmpty($('.policiales')) ) ) {
+		console.log('policiales is empty && is visible');
+$(".policiales").append('<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRed-Cinco-Policiales-107124010707450%2F&tabs=timeline&width=312&height=2000&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=244071169860258" width="312" height="2000" style="border:none;overflow:scroll" scrolling="yes" frameborder="10" allowTransparency="true" allow="encrypted-media"></iframe>');
+// clear the setInterval
+clearInterval(loadpoliciales);
 	}
 }, 1000);
 ///////////////////////////////////
@@ -409,6 +424,7 @@ clearInterval(loadmediakit);
 ///////////////////////////////////
 ////// info
 ///////////////////////////////////
+/*
 var loadinfo = setInterval(function() {
   function isEmpty( el ){
       return !$.trim(el.html())
@@ -421,10 +437,12 @@ $(".info").append('<iframe src="https://www.facebook.com/plugins/page.php?href=h
 clearInterval(loadinfo);
 	}
 }, 1000);
+*/
 ///////////////////////////////////
 ////// radio
 ///////////////////////////////////
-/*var loadradio = setInterval(function() {
+/*
+var loadradio = setInterval(function() {
   function isEmpty( el ){
       return !$.trim(el.html())
   }
