@@ -481,7 +481,8 @@ $('.bf_farm_container').perfectScrollbar({
 }
 */
 ///////////////////
-
+$('.swiper-slide:has(.bf_intro_container)').css('height', '100%').css('background', 'blue');
+$('.bf_intro_container').css('overflow-y', 'auto');
 
 
 
