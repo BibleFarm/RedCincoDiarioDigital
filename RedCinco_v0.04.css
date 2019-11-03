@@ -971,15 +971,6 @@ body {
   background: !important;
   text-align: center;
 }
-.wrap_website_jovi > .swiper-container > .swiper-wrapper > .swiper-slide > .bf_intro_container {
-  background-position: center;
-  background-size: cover;
-  max-width: 33.33%;
-  min-width: 310px;
-  height: 100%;
-  background: !important;
-  text-align: center;
-}
 .swiper-button-next {
   position: fixed;
   line-height: 44px !important;
@@ -1397,18 +1388,13 @@ a.link_to_youtube_channel:focus {
   text-align: center;
 }
 .bf_intro_container {
-  overflow-y: auto;
-      height: calc(100% - 44px);
+  overflow-y: hidden;
+      height: calc(100vh - 150px);
       text-align: center;
-      width: 312px;
-      display: inline-block;
-      color: #ffffff;
-      position: absolute;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-      padding-bottom: calc(44px - 44px - 44px - 44px - 44px - 20px);
-        }
+    width: 312px;
+    display: inline-block;
+    color: #ffffff;
+    }
     .padding_left_10px {
       color: #ffffff;
       background:#FF5E33;
