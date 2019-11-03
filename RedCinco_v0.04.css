@@ -1389,7 +1389,7 @@ a.link_to_youtube_channel:focus {
 }
 .bf_intro_container {
   overflow-y: auto;
-      height: calc(100vh - 150px);
+      height: calc(100% - 44px);
       text-align: center;
     width: 312px;
     display: inline-block;
