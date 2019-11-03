@@ -1481,12 +1481,13 @@ a.link_to_youtube_channel:focus {
 .bf_farm_container {
   position: absolute;
   width: 100%;
-  height: 2000px;
+  height: 100%;
   margin: 0 auto;
   left: 0;
   right: 0;
   text-align: center;
-  overflow: hidden;
+  overflow: auto;
+  padding-bottom: 10000px;
 }
 .bf_facebook_container {
   position: absolute;
