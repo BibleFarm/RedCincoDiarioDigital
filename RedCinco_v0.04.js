@@ -468,10 +468,12 @@ clearInterval(loadradio);
 
 
 ///////////////////
+/*
 $('.bf_intro_container').perfectScrollbar({
 //  wheelPropagation: true,
 //  scrollXMarginOffset: 2
 });
+*/
 ///////////////////
 
 

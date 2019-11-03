@@ -1388,7 +1388,7 @@ a.link_to_youtube_channel:focus {
   text-align: center;
 }
 .bf_intro_container {
-  overflow-y: hidden;
+  overflow-y: scroll;
       height: calc(100vh - 150px);
       text-align: center;
     width: 312px;
