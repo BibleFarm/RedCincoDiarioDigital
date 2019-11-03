@@ -1398,7 +1398,7 @@ a.link_to_youtube_channel:focus {
       left: 0;
       right: 0;
       margin: 0 auto;
-      padding-bottom: calc(44px - 44px - 44px -20px);
+      padding-bottom: calc(44px - 44px - 44px - 44px - 20px);
         }
     .padding_left_10px {
       color: #ffffff;
