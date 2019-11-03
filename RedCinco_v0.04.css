@@ -1388,13 +1388,18 @@ a.link_to_youtube_channel:focus {
   text-align: center;
 }
 .bf_intro_container {
-  overflow-y: scroll;
-      height: calc(100% - 1650px);
+  overflow-y: auto;
+      height: 100vh;
       text-align: center;
-    width: 312px;
-    display: inline-block;
-    color: #ffffff;
-    }
+      width: 312px;
+      display: inline-block;
+      color: #ffffff;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      padding-bottom: 300px;
+        }
     .padding_left_10px {
       color: #ffffff;
       background:#FF5E33;
