@@ -485,4 +485,81 @@ $('.swiper-slide:has(.bf_intro_container)').css('height', '100%');
 
 
 
+//////////////////////////////////
+///// BEGIN swiper deportes /
+//////////////////////////////////
+  var swiper_ads_deportes = new Swiper(".swiper_ads-deportes", {
+    effect: 'flip',
+autoplay: 4500,
+autoplayDisableOnInteraction: false,
+    watchSlidesVisibility: true,
+    watchSlidesProgress: true,
+    initialSlide: 0,
+//  slidesPerView: 1,
+    spaceBetween: 0,
+    preventClicks: true,
+    //    scrollbar: ".swiper-scrollbar",
+    //    scrollbarHide: false,
+    keyboardControl: true,
+    mousewheelControl: false,
+//    effect: "coverflow",
+//    effect: 'cube',
+//    grabCursor: true,
+    shortSwipes: false,
+    centeredSlides: false,
+    slidesPerView: "auto",
+    hashnav: false,
+//    coverflowEffect: {
+//      rotate: 50,
+//      stretch: 0,
+//      depth: 100,
+//      modifier: 1,
+//      slideShadows: true
+//    },
+//    cubeEffect: {
+//      shadow: true,
+//      slideShadows: true,
+//      shadowOffset: 20,
+//      shadowScale: 0.94,
+//    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      type: "progressbar"
+    },
+    // Navigation arrows
+    nextButton: ".swiper-button-next",
+    prevButton: ".swiper-button-prev"
+  });
+  //////////////////////////////////
+  ///// END swiper deportes /
+  //////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }); // end document ready
