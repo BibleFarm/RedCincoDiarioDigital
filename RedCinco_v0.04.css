@@ -2522,7 +2522,10 @@ img {
 }
 .pub_312x92 {
   margin-bottom: 4px;
-  text-align: center;
+  display: inline-block;
+    width: 312px;
+    max-width: 312px;
+    text-align: center;
 }
 .bf_wrap_top_burger_desktop, .flex-child, .bf_wrap_top_about_desktop, .padding_left_10px, .rc_social, .swiper-button-prev, .swiper-button-next, {
   background: #FF5E33 !important;
@@ -2535,4 +2538,10 @@ img {
 .info_div_inner {
   display: inline-block;
     width: 312px;
+    }
+.wrap_swiper_ads > .swiper-container > .swiper-wrapper > .swiper-slide {
+  display: inline-block;
+      width: 312px;
+      max-width: 312px;
+      text-align: center;
     }

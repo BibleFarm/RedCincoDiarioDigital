@@ -85,7 +85,7 @@ $(".flex-parent").children(".flex-child").each(function() {
   var swiper_jovi = new Swiper(".swiper-container-main", {
     watchSlidesVisibility: true,
     watchSlidesProgress: true,
-    initialSlide: 1,
+    initialSlide: 4,
 //  slidesPerView: 3,
     spaceBetween: 4,
     preventClicks: true,
@@ -486,54 +486,357 @@ $('.swiper-slide:has(.bf_intro_container)').css('height', '100%');
 
 
 //////////////////////////////////
-///// BEGIN swiper deportes /
+///// BEGIN swiper general /
 //////////////////////////////////
-  var swiper_ads_deportes = new Swiper(".swiper_ads-deportes", {
+  var swiper_ads_general = new Swiper(".swiper_ads-general", {
     effect: 'flip',
 autoplay: 4500,
 autoplayDisableOnInteraction: false,
     watchSlidesVisibility: true,
     watchSlidesProgress: true,
     initialSlide: 0,
-//  slidesPerView: 1,
     spaceBetween: 0,
     preventClicks: true,
-    //    scrollbar: ".swiper-scrollbar",
-    //    scrollbarHide: false,
     keyboardControl: true,
     mousewheelControl: false,
-//    effect: "coverflow",
-//    effect: 'cube',
-//    grabCursor: true,
     shortSwipes: false,
     centeredSlides: false,
-    slidesPerView: "auto",
-    hashnav: false,
-//    coverflowEffect: {
-//      rotate: 50,
-//      stretch: 0,
-//      depth: 100,
-//      modifier: 1,
-//      slideShadows: true
-//    },
-//    cubeEffect: {
-//      shadow: true,
-//      slideShadows: true,
-//      shadowOffset: 20,
-//      shadowScale: 0.94,
-//    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-      type: "progressbar"
-    },
-    // Navigation arrows
-    nextButton: ".swiper-button-next",
-    prevButton: ".swiper-button-prev"
+    slidesPerView: 1,
+    hashnav: false
   });
   //////////////////////////////////
-  ///// END swiper deportes /
+  ///// END swiper general /
   //////////////////////////////////
+  //////////////////////////////////
+  ///// BEGIN swiper nacionales /
+  //////////////////////////////////
+    var swiper_ads_nacionales = new Swiper(".swiper_ads-nacionales", {
+      effect: 'flip',
+  autoplay: 4500,
+  autoplayDisableOnInteraction: false,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+      initialSlide: 4,
+      spaceBetween: 0,
+      preventClicks: true,
+      keyboardControl: true,
+      mousewheelControl: false,
+      shortSwipes: false,
+      centeredSlides: false,
+      slidesPerView: 1,
+      hashnav: false
+    });
+    //////////////////////////////////
+    ///// END swiper nacionales /
+    //////////////////////////////////
+    //////////////////////////////////
+    ///// BEGIN swiper mundo /
+    //////////////////////////////////
+      var swiper_ads_mundo = new Swiper(".swiper_ads-mundo", {
+        effect: 'flip',
+    autoplay: 4500,
+    autoplayDisableOnInteraction: false,
+        watchSlidesVisibility: true,
+        watchSlidesProgress: true,
+        initialSlide: 2,
+        spaceBetween: 0,
+        preventClicks: true,
+        keyboardControl: true,
+        mousewheelControl: false,
+        shortSwipes: false,
+        centeredSlides: false,
+        slidesPerView: 1,
+        hashnav: false
+      });
+      //////////////////////////////////
+      ///// END swiper mundo /
+      //////////////////////////////////
+      //////////////////////////////////
+      ///// BEGIN swiper politica /
+      //////////////////////////////////
+        var swiper_ads_politica = new Swiper(".swiper_ads-politica", {
+          effect: 'flip',
+      autoplay: 4500,
+      autoplayDisableOnInteraction: false,
+          watchSlidesVisibility: true,
+          watchSlidesProgress: true,
+          initialSlide: 5,
+          spaceBetween: 0,
+          preventClicks: true,
+          keyboardControl: true,
+          mousewheelControl: false,
+          shortSwipes: false,
+          centeredSlides: false,
+          slidesPerView: 1,
+          hashnav: false
+        });
+        //////////////////////////////////
+        ///// END swiper politica /
+        //////////////////////////////////
+      //////////////////////////////////
+      ///// BEGIN swiper misiones /
+      //////////////////////////////////
+        var swiper_ads_misiones = new Swiper(".swiper_ads-misiones", {
+          effect: 'flip',
+      autoplay: 4500,
+      autoplayDisableOnInteraction: false,
+          watchSlidesVisibility: true,
+          watchSlidesProgress: true,
+          initialSlide: 1,
+          spaceBetween: 0,
+          preventClicks: true,
+          keyboardControl: true,
+          mousewheelControl: false,
+          shortSwipes: false,
+          centeredSlides: false,
+          slidesPerView: 1,
+          hashnav: false
+        });
+        //////////////////////////////////
+        ///// END swiper misiones /
+        //////////////////////////////////
+        //////////////////////////////////
+        ///// BEGIN swiper policiales /
+        //////////////////////////////////
+          var swiper_ads_policiales = new Swiper(".swiper_ads-policiales", {
+            effect: 'flip',
+        autoplay: 4500,
+        autoplayDisableOnInteraction: false,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+            initialSlide: 5,
+            spaceBetween: 0,
+            preventClicks: true,
+            keyboardControl: true,
+            mousewheelControl: false,
+            shortSwipes: false,
+            centeredSlides: false,
+            slidesPerView: 1,
+            hashnav: false
+          });
+          //////////////////////////////////
+          ///// END swiper policiales /
+          //////////////////////////////////
+          //////////////////////////////////
+          ///// BEGIN swiper deportes /
+          //////////////////////////////////
+            var swiper_ads_deportes = new Swiper(".swiper_ads-deportes", {
+              effect: 'flip',
+          autoplay: 4500,
+          autoplayDisableOnInteraction: false,
+              watchSlidesVisibility: true,
+              watchSlidesProgress: true,
+              initialSlide: 3,
+              spaceBetween: 0,
+              preventClicks: true,
+              keyboardControl: true,
+              mousewheelControl: false,
+              shortSwipes: false,
+              centeredSlides: false,
+              slidesPerView: 1,
+              hashnav: false
+            });
+            //////////////////////////////////
+            ///// END swiper deportes /
+            //////////////////////////////////
+            //////////////////////////////////
+            ///// BEGIN swiper cultura /
+            //////////////////////////////////
+              var swiper_ads_cultura = new Swiper(".swiper_ads-cultura", {
+                effect: 'flip',
+            autoplay: 4500,
+            autoplayDisableOnInteraction: false,
+                watchSlidesVisibility: true,
+                watchSlidesProgress: true,
+                initialSlide: 4,
+                spaceBetween: 0,
+                preventClicks: true,
+                keyboardControl: true,
+                mousewheelControl: false,
+                shortSwipes: false,
+                centeredSlides: false,
+                slidesPerView: 1,
+                hashnav: false
+              });
+              //////////////////////////////////
+              ///// END swiper cultura /
+              //////////////////////////////////
+              //////////////////////////////////
+              ///// BEGIN swiper espectaculos /
+              //////////////////////////////////
+                var swiper_ads_espectaculos = new Swiper(".swiper_ads-espectaculos", {
+                  effect: 'flip',
+              autoplay: 4500,
+              autoplayDisableOnInteraction: false,
+                  watchSlidesVisibility: true,
+                  watchSlidesProgress: true,
+                  initialSlide: 0,
+                  spaceBetween: 0,
+                  preventClicks: true,
+                  keyboardControl: true,
+                  mousewheelControl: false,
+                  shortSwipes: false,
+                  centeredSlides: false,
+                  slidesPerView: 1,
+                  hashnav: false
+                });
+                //////////////////////////////////
+                ///// END swiper espectaculos /
+                //////////////////////////////////
+                //////////////////////////////////
+                ///// BEGIN swiper educacion /
+                //////////////////////////////////
+                  var swiper_ads_educacion = new Swiper(".swiper_ads-educacion", {
+                    effect: 'flip',
+                autoplay: 4500,
+                autoplayDisableOnInteraction: false,
+                    watchSlidesVisibility: true,
+                    watchSlidesProgress: true,
+                    initialSlide: 4,
+                    spaceBetween: 0,
+                    preventClicks: true,
+                    keyboardControl: true,
+                    mousewheelControl: false,
+                    shortSwipes: false,
+                    centeredSlides: false,
+                    slidesPerView: 1,
+                    hashnav: false
+                  });
+                  //////////////////////////////////
+                  ///// END swiper educacion /
+                  //////////////////////////////////
+                  //////////////////////////////////
+                  ///// BEGIN swiper salud /
+                  //////////////////////////////////
+                    var swiper_ads_salud = new Swiper(".swiper_ads-salud", {
+                      effect: 'flip',
+                  autoplay: 4500,
+                  autoplayDisableOnInteraction: false,
+                      watchSlidesVisibility: true,
+                      watchSlidesProgress: true,
+                      initialSlide: 2,
+                      spaceBetween: 0,
+                      preventClicks: true,
+                      keyboardControl: true,
+                      mousewheelControl: false,
+                      shortSwipes: false,
+                      centeredSlides: false,
+                      slidesPerView: 1,
+                      hashnav: false
+                    });
+                    //////////////////////////////////
+                    ///// END swiper salud /
+                    //////////////////////////////////
+                    //////////////////////////////////
+                    ///// BEGIN swiper tecnologia /
+                    //////////////////////////////////
+                      var swiper_ads_tecnologia = new Swiper(".swiper_ads-tecnologia", {
+                        effect: 'flip',
+                    autoplay: 4500,
+                    autoplayDisableOnInteraction: false,
+                        watchSlidesVisibility: true,
+                        watchSlidesProgress: true,
+                        initialSlide: 5,
+                        spaceBetween: 0,
+                        preventClicks: true,
+                        keyboardControl: true,
+                        mousewheelControl: false,
+                        shortSwipes: false,
+                        centeredSlides: false,
+                        slidesPerView: 1,
+                        hashnav: false
+                      });
+                      //////////////////////////////////
+                      ///// END swiper tecnologia /
+                      //////////////////////////////////
+                      //////////////////////////////////
+                      ///// BEGIN swiper mascotas /
+                      //////////////////////////////////
+                        var swiper_ads_mascotas = new Swiper(".swiper_ads-mascotas", {
+                          effect: 'flip',
+                      autoplay: 4500,
+                      autoplayDisableOnInteraction: false,
+                          watchSlidesVisibility: true,
+                          watchSlidesProgress: true,
+                          initialSlide: 1,
+                          spaceBetween: 0,
+                          preventClicks: true,
+                          keyboardControl: true,
+                          mousewheelControl: false,
+                          shortSwipes: false,
+                          centeredSlides: false,
+                          slidesPerView: 1,
+                          hashnav: false
+                        });
+                        //////////////////////////////////
+                        ///// END swiper mascotas /
+                        //////////////////////////////////
+                        //////////////////////////////////
+                        ///// BEGIN swiper clasificados /
+                        //////////////////////////////////
+                          var swiper_ads_clasificados = new Swiper(".swiper_ads-clasificados", {
+                            effect: 'flip',
+                        autoplay: 4500,
+                        autoplayDisableOnInteraction: false,
+                            watchSlidesVisibility: true,
+                            watchSlidesProgress: true,
+                            initialSlide: 5,
+                            spaceBetween: 0,
+                            preventClicks: true,
+                            keyboardControl: true,
+                            mousewheelControl: false,
+                            shortSwipes: false,
+                            centeredSlides: false,
+                            slidesPerView: 1,
+                            hashnav: false
+                          });
+                          //////////////////////////////////
+                          ///// END swiper clasificados /
+                          //////////////////////////////////
+                          //////////////////////////////////
+                          ///// BEGIN swiper profesionales /
+                          //////////////////////////////////
+                            var swiper_ads_profesionales = new Swiper(".swiper_ads-profesionales", {
+                              effect: 'flip',
+                          autoplay: 4500,
+                          autoplayDisableOnInteraction: false,
+                              watchSlidesVisibility: true,
+                              watchSlidesProgress: true,
+                              initialSlide: 3,
+                              spaceBetween: 0,
+                              preventClicks: true,
+                              keyboardControl: true,
+                              mousewheelControl: false,
+                              shortSwipes: false,
+                              centeredSlides: false,
+                              slidesPerView: 1,
+                              hashnav: false
+                            });
+                            //////////////////////////////////
+                            ///// END swiper profesionales /
+                            //////////////////////////////////
+                            //////////////////////////////////
+                            ///// BEGIN swiper mediakit /
+                            //////////////////////////////////
+                              var swiper_ads_mediakit = new Swiper(".swiper_ads-mediakit", {
+                                effect: 'flip',
+                            autoplay: 4500,
+                            autoplayDisableOnInteraction: false,
+                                watchSlidesVisibility: true,
+                                watchSlidesProgress: true,
+                                initialSlide: 4,
+                                spaceBetween: 0,
+                                preventClicks: true,
+                                keyboardControl: true,
+                                mousewheelControl: false,
+                                shortSwipes: false,
+                                centeredSlides: false,
+                                slidesPerView: 1,
+                                hashnav: false
+                              });
+                              //////////////////////////////////
+                              ///// END swiper mediakit /
+                              //////////////////////////////////
 
 
 
